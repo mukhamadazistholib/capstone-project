@@ -1,0 +1,18 @@
+h1 Remind Me!
+p.desc I'll help you to make your schedule simply
+.generator
+  section
+    label(for="summary") Title 
+    input#summary(type="text" placeholder="This is the event title")
+  section
+    label(for="description") Description
+    textarea#description(placeholder="This is the event details")
+  section
+    label(for="startDate") Start Date
+    input#startDate(type="date")
+  section
+    label(for="endDate") End Date
+    input#endDate(type="date")
+  section
+    button#create Create file
+    a#downloadLink.download.hide(download="event.ics") Download
