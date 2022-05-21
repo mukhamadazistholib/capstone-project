@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Remind Me!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Remind Me!</h1>
+<p class="desc">I'll help you to make your schedule simply</p>
+<div class="generator">
+  <section>
+    <label for="summary">Title</label>
+    <input id="summary" type="text" placeholder="This is the event title"/>
+  </section>
+  <section>
+    <label for="description">Description</label>
+    <textarea id="description" placeholder="This is the event details"></textarea>
+  </section>
+  <section>
+    <label for="startDate">Start Date</label>
+    <input id="startDate" type="date"/>
+  </section>
+  <section>
+    <label for="startTime">Start Time</label>
+    <input id="startTime" type="time"/>
+  </section>
+  <section>
+    <label for="endDate">End Date</label>
+    <input id="endDate" type="date"/>
+  </section>
+  <section>
+    <label for="endTime">End Time</label>
+    <input id="endTime" type="time"/>
+  <section>
+    <button id="create">Create file</button><a class="download hide" id="downloadLink" download="event.ics"> Download</a>
+  </section>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
