@@ -31,6 +31,10 @@
                     <input id="title" name="title" class="form-control" type="text" required>
                   </div>
                   <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" rows="3" id="description" name="description"></textarea>
+                  </div>
+                  <div class="form-group">
                     <label for="timeZone">Time Zone</label>
                     <select class="form-control" name="timeZone" id="timeZone">
                       <option value="+0700" selected>WIB (UTC+07:00)</option>
@@ -49,10 +53,6 @@
                   <div class="form-group">
                     <label for="location">Location</label>
                     <input id="location" name="location" placeholder="Address or URL" class="form-control" type="text">
-                  </div>
-                  <div class="form-group">
-                    <label for="description">Description</label>
-                    <textarea class="form-control" rows="3" id="description" name="description"></textarea>
                   </div>
                   <div class="form-actions btn-group">
                     <input type="submit" class="btn-secondary" id="save" name="save" value="Add Event">
