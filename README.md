@@ -8,5 +8,4 @@ This is our capstone project in study independent program of Microsoft x MariBel
 ## Demo
 See live demo [here](mukhamadazistholib.github.io)!
 
-##
-Activity [log](https://socialify.git.ci/mukhamadazistholib/)!
+
