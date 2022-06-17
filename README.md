@@ -6,7 +6,7 @@ This is our capstone project in study independent program of Microsoft x MariBel
 - [x] Made with a web-based interface that is ready to be hosted with azure web apps service
 
 ## Demo
-See live demo [here](mukhamadazistholib.github.io)!
+See live demo [here](https://mukhamadazistholib.github.io/)!
 
 ## Team Member
 1. Muhammad Ikrom Yafik - Universitas Teknologi Lampung
