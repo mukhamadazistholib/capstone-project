@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -16,7 +16,7 @@ body {
   background-image: linear-gradient(#0F4C81, #1467af);
   background-size: 100%;
   text-align: center;
-  font: 18px/1.5 "IBM Plex Mono", monospace;
+  font: 18px/1.5 "Poppins", monospace;
 }
 
 h1 {
@@ -78,7 +78,7 @@ textarea {
   border: 1px solid #0F4C81;
   border-radius: 50em;
   height: 2em;
-  font: 18px/1.5 "IBM Plex Mono", monospace;
+  font: 18px/1.5 "Poppins", monospace;
 }
 .download:focus,
 button:focus,
@@ -131,4 +131,10 @@ button,
 
 .hide {
   display: none;
+}
+
+.footer {
+  color: white;
+  margin-top: 0;
+  text-shadow: 0 0.25em 0.5em #02090f;
 }
