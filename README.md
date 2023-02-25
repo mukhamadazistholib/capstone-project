@@ -1,5 +1,5 @@
 # Remind Me!
-This is our capstone project in study independent program of Microsoft x MariBelajar Indonesia
+This is our capstone project in study independent program of Microsoft x MariBelajar Indonesia.
 
 ## Goals
 - [x] Simple solution to make .ics file for scheduled activity with calendar integration 
